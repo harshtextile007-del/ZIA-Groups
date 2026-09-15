@@ -68,6 +68,11 @@
     display:flex;align-items:center;justify-content:space-between;
     height:76px;
   }
+  .logo img {
+  display: block;
+  width: 150px;
+  height:auto;
+}
   .logo{font-family:'Fraunces',serif;font-weight:500;font-size:1.5rem;letter-spacing:.02em;}
   .main-nav{display:flex;gap:2.25rem;}
   .main-nav a{font-size:.95rem;color:var(--ink-soft);transition:color var(--dur) var(--ease);}
@@ -394,7 +399,8 @@
 
 <header class="site-header">
   <div class="wrap">
-    <a href="#top" class="logo">ZIA</a>
+    <a href="#top" class="logo"><img src="logo.png"></a>
+    
     <nav class="main-nav" id="mainNav">
       <a href="#new-arrivals">New arrivals</a>
       <a href="#categories">Shop</a>
@@ -785,3 +791,4 @@
 </script>
 </body>
 </html>
+s
